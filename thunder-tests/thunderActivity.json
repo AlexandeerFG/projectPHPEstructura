@@ -1,0 +1,178 @@
+[
+  {
+    "_id": "a3a42fe6-9f3c-448a-83f6-1f5a3c6e5423",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/usuario/crear-usuario",
+    "url": "http://127.0.0.1:8000/api/usuariosRoutes/usuario",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2023-03-28T02:01:33.430Z",
+    "modified": "2023-03-28T22:58:22.523Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id\":9\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2ea7b58c-1be5-4ec5-85f9-7121e9d55bdc",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/usuariosRoutes/usuario",
+    "url": "http://127.0.0.1:8000/api/usuariosRoutes/usuario",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2023-03-28T22:28:38.066Z",
+    "modified": "2023-03-28T22:54:38.649Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id\":12,\n  \"nombre\": \"Luis Billy\",\n  \"apellidoPaterno\": \"Gomez\",\n  \"apellidoMaterno\": \"Monroy\",\n  \"telefono\": 56565,\n  \"correo\": \"luisbilly70@gmail.com\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9347a9fd-8808-40ee-a0a1-d41ed252a152",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/usuariosRoutes/usuario",
+    "url": "http://127.0.0.1:8000/api/usuariosRoutes/usuario",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-28T22:32:24.447Z",
+    "modified": "2023-03-28T22:48:24.233Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"nombre\": \"Actualizado\",\n  \"apellidoPaterno\": \"Registro\",\n  \"apellidoMaterno\": \"Nuevo\",\n  \"telefono\": 123456789,\n  \"correo\": \"campoActualizadoAlets1232134@gmail.com\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "5a92bbe0-3e36-4c1b-9e8e-62b82d61c3d4",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/usuariosRoutes/usuario",
+    "url": "http://127.0.0.1:8000/api/usuariosRoutes/usuario",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2023-03-28T22:47:26.852Z",
+    "modified": "2023-03-28T22:47:26.852Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "3aa217f2-ecd3-42fb-8ec3-df539b285643",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/usuariosRoutes/obtener-usuario",
+    "url": "http://127.0.0.1:8000/api/usuariosRoutes/obtener-usuario",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-28T23:37:06.475Z",
+    "modified": "2023-03-28T23:37:06.475Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ff7d5fb2-63ce-4c89-9dc8-8d0de9bb8dbf",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/usuariosRoutes/obtener-usuario/5",
+    "url": "http://127.0.0.1:8000/api/usuariosRoutes/obtener-usuario/5",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-28T23:37:31.001Z",
+    "modified": "2023-03-28T23:37:31.001Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "c44ba6a5-7ee9-4833-8098-9edb9883e152",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/usuariosRoutes/obtener-usuario/1",
+    "url": "http://127.0.0.1:8000/api/usuariosRoutes/obtener-usuario/1",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-28T23:37:35.031Z",
+    "modified": "2023-03-28T23:37:52.127Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "093fc302-8f6b-46b6-8ab4-ed3a90dabbdb",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/usuariosRoutes/obtener-usuario/9",
+    "url": "http://127.0.0.1:8000/api/usuariosRoutes/obtener-usuario/9",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-28T23:42:56.185Z",
+    "modified": "2023-03-28T23:42:56.185Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "e9917a4e-8490-4896-a1c7-8f30ec108498",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/usuariosRoutes/obtener-usuario/10",
+    "url": "http://127.0.0.1:8000/api/usuariosRoutes/obtener-usuario/10",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-28T23:43:05.410Z",
+    "modified": "2023-03-28T23:43:05.410Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "tests": []
+  }
+]
