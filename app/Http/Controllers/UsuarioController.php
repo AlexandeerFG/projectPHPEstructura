@@ -33,7 +33,7 @@ class UsuarioController extends Controller
 
         }catch(\Exception $e){
             DB::rollBack();
-            throw $e;
+            return $e->getMessage();
         }
     }
 
@@ -42,7 +42,7 @@ class UsuarioController extends Controller
         try{
             return Usuario::findOrFail($id);
         } catch (\Exception $e) {
-            throw $e;
+            throw $e->getMessage();
         }
     }
 
@@ -62,12 +62,12 @@ class UsuarioController extends Controller
                 'telefono'        => $request->telefono,
                 'correo'          => $request->correo,
             ]);
-            return "Registro Actualizado con el ID siguiente: {$request->id}";
             DB::commit();
+            return "Registro Actualizado con el ID siguiente: {$request->id}";
 
         } catch (\Exception $e) {
             DB::rollBack();
-            throw $e;
+            return $e->getMessage();
         }
     }
 
@@ -87,7 +87,7 @@ class UsuarioController extends Controller
 
         }catch(\Exception $e){
             DB::rollBack();
-            throw $e;
+            return $e->getMessage();
         }
     }
 }

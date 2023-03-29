@@ -174,5 +174,297 @@
     ],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "b9dec954-bf61-4370-97b3-4b8b9e62edfb",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/usuariosRoutes/usuario",
+    "url": "http://127.0.0.1:8000/api/usuariosRoutes/usuario",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-29T16:22:09.312Z",
+    "modified": "2023-03-29T16:22:09.312Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "599c16d7-ae3a-463e-a8e7-8c514344f9d9",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/usuarioAutoRoutes/usuario-auto",
+    "url": "http://127.0.0.1:8000/api/usuarioAutoRoutes/usuario-auto",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-29T16:22:38.584Z",
+    "modified": "2023-03-29T16:22:38.584Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2a68a41f-7b12-4493-a41b-24a9e2662b0f",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8081/api/usuarioAutoRoutes/usuario-auto",
+    "url": "http://127.0.0.1:8081/api/usuarioAutoRoutes/usuario-auto",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-29T16:23:04.810Z",
+    "modified": "2023-03-29T16:23:04.810Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "58bf41d4-9822-4434-b611-8a6c2ba48b6f",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8081/api/autoRoutes/auto",
+    "url": "http://127.0.0.1:8081/api/autoRoutes/auto",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-29T19:48:04.150Z",
+    "modified": "2023-03-29T19:48:04.150Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "5ce655fa-4c58-4aac-8642-1c819c1aab82",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/autoRoutes/auto",
+    "url": "http://127.0.0.1:8000/api/autoRoutes/auto",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-29T19:48:11.273Z",
+    "modified": "2023-03-29T20:05:59.989Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"modelo\":\"Shadow\",\n  \"color\": \"Negro\",\n  \"marca\": \"Chrysler\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "471242da-4033-4967-b242-da84440a9ba1",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/autoRoutes/auto",
+    "url": "http://127.0.0.1:8000/api/autoRoutes/auto",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-29T20:07:35.518Z",
+    "modified": "2023-03-29T20:07:35.518Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"modelo\":\"Shadow\",\n  \"color\": \"Negro\",\n  \"marca\": \"Chrysler\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "897c2120-f457-468a-a2b9-241a5079605b",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/autoRoutes/obtener-auto/1",
+    "url": "http://127.0.0.1:8000/api/autoRoutes/obtener-auto/1",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-29T20:11:17.573Z",
+    "modified": "2023-03-29T20:11:17.573Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"modelo\":\"Shadow\",\n  \"color\": \"Negro\",\n  \"marca\": \"Chrysler\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "11c3f2b1-999e-44f6-bbf4-c7c2eb776308",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/autoRoutes/obtener-auto/2",
+    "url": "http://127.0.0.1:8000/api/autoRoutes/obtener-auto/2",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-29T20:11:21.704Z",
+    "modified": "2023-03-29T20:11:21.704Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"modelo\":\"Shadow\",\n  \"color\": \"Negro\",\n  \"marca\": \"Chrysler\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "192a12db-a89d-46b4-b8f3-d472f326a7fe",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/autoRoutes/obtener-auto/3",
+    "url": "http://127.0.0.1:8000/api/autoRoutes/obtener-auto/3",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-29T20:11:24.718Z",
+    "modified": "2023-03-29T20:11:24.718Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"modelo\":\"Shadow\",\n  \"color\": \"Negro\",\n  \"marca\": \"Chrysler\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "963a0ea8-80cc-4d7d-9c4a-6ca30d75993b",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/autoRoutes/obtener-auto/4",
+    "url": "http://127.0.0.1:8000/api/autoRoutes/obtener-auto/4",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-29T20:11:27.787Z",
+    "modified": "2023-03-29T20:11:27.787Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"modelo\":\"Shadow\",\n  \"color\": \"Negro\",\n  \"marca\": \"Chrysler\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "5343f17c-24bf-406b-94f1-fdd04ecee4c1",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/autoRoutes/obtener-auto/5",
+    "url": "http://127.0.0.1:8000/api/autoRoutes/obtener-auto/5",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-29T20:11:30.696Z",
+    "modified": "2023-03-29T20:11:30.696Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"modelo\":\"Shadow\",\n  \"color\": \"Negro\",\n  \"marca\": \"Chrysler\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "52eff7ed-6ee5-451a-98b0-b7cf6e2aa4e1",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/autoRoutes/auto",
+    "url": "http://127.0.0.1:8000/api/autoRoutes/auto",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2023-03-29T20:15:38.456Z",
+    "modified": "2023-03-29T20:33:32.430Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id_auto\": 6,\n  \"modelo\":\"Shadow\",\n  \"color\": \"Azul\",\n  \"marca\": \"Chrysler\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "d3e85ea7-1416-47dc-bcf6-1f619a2a8eb9",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/api/autoRoutes/auto",
+    "url": "http://127.0.0.1:8000/api/autoRoutes/auto",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2023-03-29T20:54:46.853Z",
+    "modified": "2023-03-29T23:10:59.444Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id_auto\":4\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
