@@ -17,8 +17,8 @@ class UsuarioController extends Controller
 
     public function createUsuario(CreateUsuarioValidate $request)
     {
-        DB::beginTransaction();
         try{
+            DB::beginTransaction();
 
             $usuario = new Usuario;
             $usuario->nombre          = $request->nombre;
@@ -48,8 +48,8 @@ class UsuarioController extends Controller
 
     public function updateUsuario(UpdateUsuarioValidate $request)
     {
-        DB::beginTransaction();
         try {
+            DB::beginTransaction();
             $usuario = Usuario::query()
                 ->where('id', $request->id)
                 ->first();
@@ -73,17 +73,18 @@ class UsuarioController extends Controller
 
     public function deleateUsuario(Request $request)
     {
-        DB::beginTransaction();
         try{
+            DB::beginTransaction();
             $usuario = Usuario::query()
             ->where('id', $request->id)
             ->first();
 
             if(!$usuario) throw new \Exception("No se encontro el usuario '{$request->id}'");
 
-            $usuario = Usuario::destroy($request->id);
+            Usuario::destroy($usuario->id);
             DB::commit();
-            return "Registro Eliminado con el ID siguiente: {$request->id}";
+
+            return "Registro con el ID {$usuario->id} eliminado correctamente";
 
         }catch(\Exception $e){
             DB::rollBack();

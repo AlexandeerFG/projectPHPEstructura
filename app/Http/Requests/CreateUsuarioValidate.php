@@ -27,7 +27,7 @@ class CreateUsuarioValidate extends FormRequest
             'apellidoPaterno'   => ['string', 'required'],
             'apellidoMaterno'   => ['string', 'required'],
             'telefono'          => ['integer', 'nullable'],
-            'correo'            => ['email', 'unique:table_usuarios,correo']
+            'correo'            => ['email', 'unique:table_usuarios,correo', 'nullable']
         ];
     }
 

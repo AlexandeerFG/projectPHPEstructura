@@ -181,10 +181,10 @@
     "containerId": "",
     "name": "http://127.0.0.1:8000/api/usuariosRoutes/usuario",
     "url": "http://127.0.0.1:8000/api/usuariosRoutes/usuario",
-    "method": "GET",
+    "method": "POST",
     "sortNum": 0,
     "created": "2023-03-29T16:22:09.312Z",
-    "modified": "2023-03-29T16:22:09.312Z",
+    "modified": "2023-03-30T16:58:35.757Z",
     "headers": [
       {
         "name": "Accept",
@@ -192,6 +192,11 @@
       }
     ],
     "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"nombre\": \"Alfredo\",\n  \"apellidoPaterno\": \"Mendez\",\n  \"apellidoMaterno\": \"Elias\"\n}",
+      "form": []
+    },
     "tests": []
   },
   {
@@ -256,11 +261,11 @@
     "colId": "history",
     "containerId": "",
     "name": "http://127.0.0.1:8000/api/autoRoutes/auto",
-    "url": "http://127.0.0.1:8000/api/autoRoutes/auto",
-    "method": "POST",
+    "url": "http://127.0.0.1:8000/api/usuarioAutoRoutes/usuario-auto",
+    "method": "PUT",
     "sortNum": 0,
     "created": "2023-03-29T19:48:11.273Z",
-    "modified": "2023-03-29T20:05:59.989Z",
+    "modified": "2023-03-30T19:00:34.587Z",
     "headers": [
       {
         "name": "Accept",
@@ -270,7 +275,7 @@
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"modelo\":\"Shadow\",\n  \"color\": \"Negro\",\n  \"marca\": \"Chrysler\"\n}",
+      "raw": "{\n  \"id_usuario_auto\":4,\n  \"id_usuario\": 1,\n  \"id_auto\": 1\n\n}",
       "form": []
     },
     "tests": []

@@ -18,8 +18,8 @@ class AutoController extends Controller
 
     public function createAuto(CreateAutoValidate $request){
 
-        DB::beginTransaction();
         try{
+            DB::beginTransaction();
             $auto = new Auto;
             $auto->modelo = $request->modelo;
             $auto->color  = $request->color;
@@ -48,8 +48,8 @@ class AutoController extends Controller
     }
 
     public function updateAuto(UpdateAutoValidate $request){
-        DB::beginTransaction();
         try{
+            DB::beginTransaction();
             $auto = Auto::query()
             ->where('id_auto', $request->id_auto)
             ->first();
@@ -68,13 +68,12 @@ class AutoController extends Controller
             DB::rollBack();
             return $e->getMessage();
         }
-        return 'nice update';
 
     }
 
     public function deleateAuto(DeleteAutoValidate $request){
-        DB::beginTransaction();
         try{
+            DB::beginTransaction();
 
             $auto = Auto::query()
             ->where('id_auto', $request->id_auto)
@@ -82,10 +81,11 @@ class AutoController extends Controller
 
             if(!$auto)throw new \Exception("No se encontro el auto con el ID '{$request->id_auto}'");
 
-            $auto = Auto::destroy($request->id_auto);
-
+            Auto::destroy($auto->id_auto);
             DB::commit();
-            return "Registro eliminado con el ID {$request->id_auto}";
+
+            return "Registro con el ID {$auto->id_auto} eliminado correctamente";
+
 
         }catch(\Exception $e){
             DB::rollBack();
